@@ -1,0 +1,20 @@
+.App {
+  text-align: center;
+}
+
+.login-container {
+  margin-top: 50px;
+}
+
+.login-container input {
+  padding: 10px;
+  margin: 10px;
+  font-size: 16px;
+}
+
+.login-container button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+

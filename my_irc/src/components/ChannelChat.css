@@ -1,0 +1,31 @@
+.channel-chat-page {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    padding: 10px;
+  }
+  
+  .messages {
+    flex: 1;
+    overflow-y: auto;
+    margin-bottom: 10px;
+  }
+  
+  .input-container {
+    display: flex;
+  }
+  
+  .message-input {
+    flex: 1;
+    padding: 10px;
+  }
+  
+  .send-button {
+    padding: 10px;
+  }
+  
+  .user-list {
+    background: #f4f4f4;
+    padding: 10px;
+  }
+  

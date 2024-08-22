@@ -1,0 +1,99 @@
+.chat-page {
+  display: flex;
+  height: 100vh;
+}
+
+.sidebar {
+  width: 200px;
+  background-color: #f4f4f4;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.channel-list {
+  margin-bottom: 10px;
+}
+
+.channel-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.channel-input {
+  width: calc(100% - 10px);
+  margin-bottom: 5px;
+  padding: 5px;
+}
+
+.create-channel-button,
+button {
+  width: 100%;
+  padding: 5px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 5px;
+}
+
+.chat-container {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.messages {
+  flex-grow: 1;
+  padding: 10px;
+  overflow-y: auto;
+}
+
+.message {
+  margin-bottom: 10px;
+}
+
+.gitbot-message {
+  font-style: italic;
+  color: #888;
+}
+
+.input-container {
+  display: flex;
+  border-top: 1px solid #ddd;
+  padding: 10px;
+}
+
+.message-input {
+  flex-grow: 1;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.send-button {
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-left: 5px;
+  width: 20%;
+}
+
+.user-list {
+  width: 200px;
+  background-color: #f4f4f4;
+  padding: 10px;
+  border-left: 1px solid #ddd;
+}
+
+.delete-channel-button {
+  margin-top: 10px;
+  padding: 5px;
+  background-color: red;
+  color: white;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
